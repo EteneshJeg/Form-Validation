@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #AFC8F7;
+    background-size: cover;
+    justify-content: center;
+    display:flex;
+}
+.container {
+    position:relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background: white;
+    border-radius: 5px;
+}
+/* .password:focus { outline:0;}
+span {
+    float: right;
+    background: #fff;
+    cursor: pointer;
+    padding: 6.5px;
+} */
+
+.label {
+    padding: 20px 13px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #130f40;
+    text-align: center;
+}
+.login-form {
+    padding: 20px 40px;
+}
+.login-form .font {
+    font-size: 18px;
+    color: #130f40;
+    margin: 10px 0;
+}
+.login-form input {
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border:1px solid rgb(60, 57, 57) ;
+    background-color: #E8F0FE;
+}
+.login-form .font2 {
+    margin-top: 10px;
+}
+
+.login-form button {
+    margin: 35px 0 20px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #3765AF;
+    border: 1px solid white;
+    transition: .5s;
+}
+
+.error{
+    background: #FCE9EF;
+    border: 2px solid #E01E5A;
+}
+
+.login-form button:hover  {
+    background: #FE8402;
+}
+
+.new {
+    text-align: center;
+}
+#privacy {
+    padding: 10px 0 0;
+    font-size: 14px;
+}
+p a {
+    color: #FE8402;
+}
+.new a {
+    color: #FE8402;
+    text-decoration: none;
+}
+.new a:hover {
+    text-decoration: underline;
+}
+.bota {
+    text-align: left;
+}
+.lela {
+    padding: 5px 15px;
+}
+.right {
+    text-align: right;
+}

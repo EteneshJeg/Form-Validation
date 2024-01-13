@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation login form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <p class="label">
+            Login to your account
+        </p>
+        <p class="new">Don’t have an account? <a href="another.html">Create a new account</a></p>
+        <form action="https://www.evangadi.com/" class="login-form" method="post" name="form" onsubmit="return validated()">
+            <div class="font"></div>
+            <input autocomplete="off" placeholder="Email address" type="text" name="email">
+            <div class="font font2"></div>
+            <input placeholder="Password" type="password" name="password" class="password">
+        
+            <!-- <span onclick="togglePass()"> <i class="fa fa-eye-slash"></i></span> -->
+
+             <p class="new right"><a href="forget.html">Forget password?</a></p>
+
+            <button type="submit">Login</button>
+
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
